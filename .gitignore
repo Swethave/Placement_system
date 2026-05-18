@@ -1,14 +1,15 @@
-<<<<<<< HEAD
-﻿
+# Environment and virtual environments
 .env
 venv/
 .venv/
+
+# Python artifacts
 __pycache__/
 *.pyc
+
+# Logs and local data
 *.log
 *.txt
-
-# Local database/runtime artifacts
 .localdb/
 *.pid
 *.sock
@@ -17,23 +18,3 @@ __pycache__/
 # OS/editor metadata
 .DS_Store
 .vscode/
-=======
-﻿
-.env
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.log
-*.txt
-
-# Local database/runtime artifacts
-.localdb/
-*.pid
-*.sock
-*.err
-
-# OS/editor metadata
-.DS_Store
-.vscode/
->>>>>>> 7f6cbeadd7686753c60ae4b9a2f2cf28e026661a
